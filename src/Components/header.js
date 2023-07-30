@@ -43,8 +43,8 @@ function Header(){
 
 
                     <div className={`text-5xl flex justify-center gap-10 py-3 mr-auto ${darkMode ? "text-white" : "text-gray-600"} `}>
-                        <AiFillGithub className="text-2xl"/>
-                        <AiFillLinkedin className="text-2xl"/>
+                        <AiFillGithub className="text-2xl" href={"https://github.com/NirpendraNathMishra"}/>
+                        <AiFillLinkedin className="text-2xl" href={"https://www.linkedin.com/in/nripendra-nath-mishra-19a49717a"}/>
                     </div>
                     <br></br>
                     <br></br>
