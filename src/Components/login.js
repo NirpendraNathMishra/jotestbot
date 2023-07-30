@@ -16,9 +16,9 @@ export default function Login() {
     
     return (
         <div className={'h-auto w-1/5  mx-auto drop-shadow-md hover:drop-shadow-2xl ${darkMode ? "text-black" : "text-white"}'}>
-            <h2 className={`text-3xl font-medium flex justify-center ${darkMode ? "text-white" : "text-black"} animate-typing`}>Join today</h2>
+            <h2 className={`text-3xl font-medium flex justify-center ${darkMode ? "text-white" : "text-black"} `}>Join today</h2>
             <div className="py-1">
-                <h3 className={`py-1 flex justify-center ${darkMode ? "text-white" : "text-black"} animate-typing`}>Sign in with one of the providers</h3>
+                <h3 className={`py-1 flex justify-center ${darkMode ? "text-white" : "text-black"} `}>Sign in with one of the providers</h3>
                 <br />
                 <div className="flex flex-col gap-4 ">
                     <button

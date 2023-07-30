@@ -23,7 +23,7 @@ function Header(){
             }}>
                 <section className="min-h-screen">
                     <nav className='py-1 mb-12 flex justify-between'>
-                        <h1 className={`text-xl font-goolefonts bold ${darkMode ? "text-white" : "text-black"} animate-typing`}>Devloped With ❤️ By Nirpendra</h1>
+                        <h1 className={`text-xl font-goolefonts bold ${darkMode ? "text-white" : "text-black"} `}>Devloped With ❤️ By Nirpendra</h1>
                         <ul className="flex items-center">
                             <li>
 
@@ -31,18 +31,18 @@ function Header(){
                             </li>
                         </ul>
                     </nav>
-                    <div className={`text-center p-1 ${darkMode ? "text-white" : "text-black"} animate-typing`}>
+                    <div className={`text-center p-1 ${darkMode ? "text-white" : "text-black"} `}>
 
-                        <h1 className={`text-5xl py-1 ${darkMode ? "text-white" : "text-black"} animate-typing`}>Jio Testcase Gen Bot </h1>
+                        <h1 className={`text-5xl py-1 ${darkMode ? "text-white" : "text-black"} `}>Jio Testcase Gen Bot </h1>
                         <br></br>
-                        <h3 className={`text-2xl py-1 ${darkMode ? "text-white" : "text-black"} animate-typing`}> Interns Project At Jio Platforms Limited  </h3>
-                        <p className={`text-md py-1 leading-1 ${darkMode ? "text-white" : "text-black"} animate-typing`}>Welcome to my bot that uses the Chat-GPT API to Genrate test case  😊 </p>
+                        <h3 className={`text-2xl py-1 ${darkMode ? "text-white" : "text-black"} `}> Interns Project At Jio Platforms Limited  </h3>
+                        <p className={`text-md py-1 leading-1 ${darkMode ? "text-white" : "text-black"} `}>Welcome to my bot that uses the Chat-GPT API to Genrate test case  😊 </p>
                         <br></br>
                     </div>
                     <Login/>
 
 
-                    <div className={`text-5xl flex justify-center gap-10 py-3 mr-auto ${darkMode ? "text-white" : "text-gray-600"} animate-typing`}>
+                    <div className={`text-5xl flex justify-center gap-10 py-3 mr-auto ${darkMode ? "text-white" : "text-gray-600"} `}>
                         <AiFillGithub className="text-2xl"/>
                         <AiFillLinkedin className="text-2xl"/>
                     </div>
@@ -50,7 +50,7 @@ function Header(){
                     <br></br>
                     <br></br>
                     <br></br>
-                    <h1 className={`text-xl  flex justify-center font-goolefonts py-2 ${darkMode ? "text-white" : "text-black"} animate-typing`}>Devloped With ❤️ By Nirpendra Mishra And Mayank Sethi</h1>
+                    <h1 className={`text-xl  flex justify-center font-goolefonts py-2 ${darkMode ? "text-white" : "text-black"} `}>Devloped With ❤️ By Nirpendra Mishra And Mayank Sethi</h1>
                 </section>
             </main>
         </div>
