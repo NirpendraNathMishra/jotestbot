@@ -30,9 +30,6 @@ module.exports = {
           },
         },
       },
-      animation: {
-        typing: 'typing 2s steps(20)  alternate, .7s infinite',
-      },
     },
   },
   plugins: [],
