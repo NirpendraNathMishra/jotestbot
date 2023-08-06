@@ -36,7 +36,7 @@ function Header(){
                         <h1 className={`text-5xl py-1 ${darkMode ? "text-white" : "text-black"} `}>Jio Testcase Gen Bot </h1>
                         <br></br>
                         <h3 className={`text-2xl py-1 ${darkMode ? "text-white" : "text-black"} `}> Interns Project At Jio Platforms Limited  </h3>
-                        <p className={`text-md py-1 leading-1 ${darkMode ? "text-white" : "text-black"} `}>Welcome to my bot that uses the Chat-GPT API to Genrate test case  😊 </p>
+                        <p className={`text-md py-1 leading-1 ${darkMode ? "text-white" : "text-black"} `}>Welcome to my bot that uses the Chat-GPT API to Generate test case From User Stories Using Chat-Gpt Api And Long-chain,Streamlit  😊 </p>
                         <br></br>
                     </div>
                     <Login/>

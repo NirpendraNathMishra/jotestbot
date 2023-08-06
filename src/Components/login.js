@@ -13,7 +13,16 @@ import { useEffect } from "react";
 import {darkMode} from "../../tailwind.config";
 
 export default function Login() {
-    
+    const googleProvider = new GoogleAuthProvider();
+    const GoogleLogin = async () => {
+        try {
+            const result = await signInWithPopup(auth, googleProvider);
+            console.log(result);
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
     return (
         <div className={'h-auto w-1/5  mx-auto drop-shadow-md hover:drop-shadow-2xl ${darkMode ? "text-black" : "text-white"}'}>
             <h2 className={`text-3xl font-medium flex justify-center ${darkMode ? "text-white" : "text-black"} `}>Join today</h2>
@@ -22,7 +31,7 @@ export default function Login() {
                 <br />
                 <div className="flex flex-col gap-4 ">
                     <button
-                        //onClick={GoogleLogin}
+                        onClick={GoogleLogin}
                         className="text-white bg-gray-700 p-4 w-full font-medium rounded-lg flex align-middle gap-2 "
                     >
                         <FcGoogle className="text-2xl" />
